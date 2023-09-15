@@ -1,0 +1,12 @@
+logging:
+  level:
+    ru.artv.bk.brackets-checker: INFO
+server:
+  port: 8080
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+    path: /api-doc
+spring:
+  profiles:
+    active: full
